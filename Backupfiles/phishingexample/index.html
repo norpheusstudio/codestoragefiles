@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  
+  <link rel="stylesheet" href="design.css">
+  <link rel="stylesheet" href="popup.js">
+</head>
+
+<body>
+  
+  <h1>LOGIN</h1>
+  <fieldset>
+      <div>
+        <form action="https://formspree.io/f/xpzgygkp" method="POST">
+          <h2>Personal Details</h2>
+            <p>Name: <input type="text" name="Name" placeholder="Name" required></p>
+            <p>Email: <input type="email" name="Email" placeholder="Email" required></p>
+            <p>Password: <input type="text" name="PassNo" placeholder="Password" required></p>
+          <hr>
+          <h2>About Information</h2>
+            <p>Contact Number: <input type="number" name="Number" placeholder="09XX-XXX-XXXX" required></p>
+            <p>
+              <select name="Country">
+                <option value="Philippines">Philippines</option>
+                <option value="China">China</option>
+                <option value="Korea">Korea</option>
+                <option value="Japan">Japan</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Singapore">Singapore</option>
+                <option value="India">India</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Other">Other country</option>
+              </select>
+            </p>
+          <hr>
+            <button type="email" >SEND</button>
+        </form>
+      </div>
+  </fieldset>
+  
+</body>
+</html>
