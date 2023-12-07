@@ -1,0 +1,23 @@
+.SectionNav {
+  background-color: rgb(0, 0, 0);
+  padding: 10px 10px 10px 10px;
+}
+h1 {
+  font-family: 'Courier New';
+  color: green;
+  font-size: 60px;
+  padding: -100px 0px 0px 0px;
+}
+.sepB {
+  font-size: 40px;
+  font-family: serif;
+}
+b {
+  font-size: 20px;
+  font-family: 'Courier New';
+  color: green;
+  padding: 10px 15px 10px 15px;
+}
+body {
+  background-color: black;
+}
