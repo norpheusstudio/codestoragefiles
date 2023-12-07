@@ -1,0 +1,27 @@
+h1 {
+  font-size: 50px;
+  font-family: 'Times New Roman';
+  margin: 500px 0px 0px 0px;
+}
+fieldset {
+  margin: 0px 300px 0px 300px;
+  background-color: lightblue;
+}
+form {
+  margin: 20px 0px 20px 0px;
+}
+input { 
+  margin: 5px 0px 5px 0px;
+}
+select {
+  margin: 5px 0px 5px 0px;
+}
+textarea {
+  margin: 5px 0px 5px 0px;
+}
+button {
+  margin: 5px 0px 5px 0px;
+}
+p {
+  font-family: 'Courier New';
+}
