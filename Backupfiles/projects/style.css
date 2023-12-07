@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper{
+	width: 1400px;
+	margin: auto;
+	background-image:url("backgroundhhhh.jpg");
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	text-align: center;
+}
+	p{
+		
+		border-style: inset;
+		border-color: black;
+		
+}
+
+#logo{
+	width: 100%;
+	font-size: 50px;
+}
+
+nav{
+	width: 910px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	width: 300px;
+	background-color: #000;
+	float: left;
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #E3E3E3;
+}
+
+section{
+	width: 100%;
+	clear: both;
+	min-height: 800px;
+}
+
+#contact{
+	min-height: 600px;
+}
+
+#articles h2{
+	margin-top: 50px;
+}
+
+#articlesDiv{
+	width: 1200px;
+	clear: both;
+	margin: auto;
+	text-align: center;
+}
+
+#articlesDiv > div{
+	float: left;
+	width: 350px;
+	margin: 0 25px;
+}
+
+#articlesDiv p{
+	font-size: 16px;
+	width: 315px;
+    text-align: justify;
+}
+
+#about h1, #contact h1{
+	margin: 30px 0;
+	font-size: 30px;
+	color: #000;
+}
+
+#aboutWrapper{
+	width: 1200px;
+	margin: auto;
+	text-align: center;
+}
+
+#about p{
+	margin: 20px 0;
+	font-size: 16px;
+	text-align: 'justify';
+}
+
+#contactWrapper{
+	width: 1200px;
+	margin: auto;
+	text-align: center;
+	font-size: 18px;
+}
+
+#contactInfo{
+	text-align: left;
+	margin-top: 40px;
+	margin-left: 30px;
+	float: left;
+}
+
+#contactInfo h2, #contactForm h2{
+	margin: 20px 0;
+}
+
+#contactForm{
+	text-align: left;
+	float: right;
+	width: 600px;
+	margin-top: 40px;
+}
+
+#contactForm label{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+
+#contactForm input, #contactForm textarea{
+	width: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#submitBtn{
+	color: #FFF;
+	background-color: #000;
+	padding: 10px;
+	border: 0;
+	width: 300px;
+	margin-top: 30px;
+}
