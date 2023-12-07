@@ -1,0 +1,17 @@
+header {
+    
+}
+header h1 {
+    
+}
+nav {
+    background-color: darkblue;
+}
+nav ul li {
+    display: inline-flex;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    font-weight: bolder;
+    color: white;
+}
