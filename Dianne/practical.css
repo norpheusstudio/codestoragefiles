@@ -83,3 +83,11 @@ ul li a:hover{
 fieldset{
 	text-align:  center;
 }
+
+.p1 {
+    font-size: 40px;
+}
+fieldset .p1 {
+    padding-right: 100px;
+    padding-left: 100px;
+}
