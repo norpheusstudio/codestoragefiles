@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Admin Login</title>
+  <style>
+    body {
+      display: inline-flex;
+      background-color: midnightblue;
+    }
+    h1 {
+      font-size: 50px;
+      font-family: fantasy;
+      text-align: center;
+      margin: 0px 0px 10px 0px;
+    }
+    
+    #para {
+      font-family: 'Courier New', Courier, monospace;
+      color: blue;
+      margin: 10px 0px 50px 0px;
+    }
+    #para2 {
+      font-size: 30px;
+      text-align: center;
+      margin: 0px 0px 0px 0px;
+    }
+    #label-admin {
+      font-weight: bolder;
+    }
+    #input-admin {
+      margin: 10px 30px 5px 5px;
+    }
+    #btn {
+      border-radius: 20px;
+      background-color: yellow;
+      color: black;
+      font-weight: bolder;
+      font-size: 15px;
+      padding: 10px 30px 10px 30px;
+    }
+    
+    fieldset {
+      background-color: ghostwhite;
+      text-align: center;
+    }
+  
+    nav ul li {
+      display: inline;
+      font-family: fantasy;
+      font-size: 16px;
+      padding: 0px 0px 0px 0px;
+    }
+  </style>
+</head>
+
+<body>
+  
+   <fieldset>
+     
+     <nav>
+       <ul>
+         <li onclick="alert('This is an alert box.')">Admin</li> •
+         <li onclick="alert('This is an alert box.')">Student</li> •
+         <li onclick="alert('This is an alert box.')">Teacher</li>
+       </ul>
+     </nav>
+     
+    <h1>Admin Login</h1>
+    <p id="para2">—</p>
+    
+    <label type="text" id="label-admin">Admin:</label>
+    <input type="text" id="input-admin" name="uname" placeholder="Username"> <br>
+    <label type="text" id="label-admin">Password:</label>
+    <input type="password" id="input-admin" name="pswrd" placeholder="Password"> <br>
+    <button id="btn" onclick="myBtn()">Login</button>
+    
+    <p id="para2">—</p>
+    <p id="para" onclick="alert('You have read the Terms and Conditions.')"><em>By logging in, you agree with terms and conditions.</em></p>
+   </fieldset>
+    
+    <script>
+      function myBtn() {
+        var action;
+          if (confirm("Are you sure you want to login?")) {
+            action = alert("You’ve successfully logged in your account.");
+          } else {
+              action = alert("Unsuccessful, Please try again.");
+            }
+          document.getElementById('p-id').innerHTML = action;
+      }
+    </script>
+</body>
+</html>
