@@ -3,119 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exquisite Eats</title>
+    <title>TVL-ICT Strand</title>
     <style>
-        body {
-            font-family: 'Playfair Display', serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background: linear-gradient(to right, #FFD700, #FF8C00);
-            color: #333;
-        }
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-        header {
-            background: linear-gradient(to right, #8B4513, #CD853F);
-            color: #fff;
-            padding: 2em;
-            text-align: center;
-        }
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            color: white;
-        }
+h1 {
+    margin: 0;
+}
 
-        nav li {
-            display: inline;
-            margin-right: 30px;
-            font-size: 1.5em;
-            color: white;
-        }
+main {
+    padding: 20px;
+}
 
-        section {
-            padding: 50px;
-            text-align: center;
-            background-color: #fff;
-            border-radius: 20px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            margin: 20px;
-        }
+section {
+    margin-bottom: 30px;
+}
 
-        section h2 {
-            color: #FF8C00;
-            font-size: 3em;
-        }
+h2 {
+    color: #333;
+}
 
-        section p {
-            color: #555;
-            font-size: 1.5em;
-            line-height: 1.8em;
-        }
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 
-        footer {
-            background: linear-gradient(to right, #8B4513, #CD853F);
-            color: #fff;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
     </style>
 </head>
 <body>
-
     <header>
-        <h1>Rice to Go</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Explore TVL-ICT Strand</h1>
     </header>
-
-    <section id="about">
-        <h2>About</h2>
-        <p>"Rice to Go" is your go-to for delicious rice on the move. We're all about making tasty, convenient rice dishes that fit into your busy life. From stir-fries to comforting rice bowls, we've got your cravings covered. Quality ingredients, easy on-the-go options – that's "Rice to Go" simplicity for you!</p>
-    </section>
-
-    <section id="menu">
-        <h2>Menu</h2>
-        <p>Here's our menu list:</p>
-        Rice bowl " : ₱00.00<br>
-        Rice bowl " : ₱00.00<br>
-        Rice bowl " : ₱00.00<br>
-        Rice bowl " : ₱00.00<br>
-        <br>
-        <hr>
-        <br>
-        Drink : ₱10.00<br>
-        <br>
-        <hr>
-        <b>Buy 1 any rice bowl, get 1 free any drinks for 10 pesos!!</b>
-    </section>
-
-    <section id="Blog">
-        <h2>Blog</h2>
-        <p></p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can contact us via</p>
-        <li>Facebook: Rice to go</li>
-    </section>
-
+    <main>
+        <section>
+            <h2>What is TVL-ICT Strand?</h2>
+            <p>The TVL-ICT strand focuses on providing students with skills and knowledge in information and communication technology.</p>
+            <p>It covers topics such as computer programming, web development, networking, and digital media production.</p>
+        </section>
+        <section>
+            <h2>Why Choose TVL-ICT?</h2>
+            <p>TVL-ICT prepares students for various careers in the fast-growing technology industry.</p>
+            <p>It equips students with practical skills that are highly in demand in today's job market.</p>
+        </section>
+        <section>
+            <h2>Explore Career Opportunities</h2>
+            <p>With TVL-ICT, students can pursue careers as:</p>
+            <ul>
+                <li>Software Developer</li>
+                <li>Web Designer</li>
+                <li>Network Administrator</li>
+                <li>Graphic Designer</li>
+                <li>IT Support Specialist</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Learn More</h2>
+            <p>Ready to start your journey in TVL-ICT? Click below to learn more!</p>
+            <button onclick="learnMore()">Learn More</button>
+            <p id="learn-more-info"></p>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2023 Rice to go. Savor the Moment.</p>
+        <p>&copy; 2024 TVL-ICT Strand</p>
     </footer>
-
+    <script>
+      function learnMore() {
+    const info = "To learn more about TVL-ICT Strand, visit our official website at www.tvl-ictstrand.com";
+    document.getElementById("learn-more-info").textContent = info;
+    }
+    </script>
 </body>
 </html>
-```
